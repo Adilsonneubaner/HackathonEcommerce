@@ -3,13 +3,13 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 // pages
 import Home from './pages/Home'
-import Medicines from './pages/Medicines'
+import Medicines from './pages/Medicines/Medicines'
 import Beauty from './pages/Beauty'
 import Hygiene from './pages/Hygiene'
 import Nutrition from './pages/Nutrition'
 
 // components
-import Navbar from './components/Navbar'
+import Navbar from './components/NavBar/Navbar'
 
 function App() {
 

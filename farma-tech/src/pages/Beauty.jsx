@@ -1,6 +1,10 @@
+
 const Beauty = () => {
   return (
-    <div>Beauty</div>
+    <div>Beauty
+
+
+    </div>
   )
 }
 

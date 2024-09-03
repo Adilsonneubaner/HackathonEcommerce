@@ -1,0 +1,10 @@
+.Button{
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.Button i{
+  padding-right: 5px;
+}
