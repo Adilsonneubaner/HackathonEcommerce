@@ -1,8 +1,9 @@
 import styles from './Button.module.css'
+import icon from '../../assets/img/icon-cart.png'
 const Button = () => {
   return (
     <button className={styles.Button}>
-      <i className="bi bi-basket-fill"></i>
+      <img src={icon} alt="" className={styles.Icon}/>
       comprar
     </button>
   );

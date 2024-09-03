@@ -1,0 +1,19 @@
+.Info{
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ background: var(--gray-light);
+
+}
+.Details{
+  display: flex;
+  align-items: center;
+  font-size:.6rem;
+  color: var(--primary);
+  padding: 10px;
+}
+
+.Details img {
+ width: 30px;
+ height: 30px;
+}
