@@ -1,7 +1,14 @@
+import Info from "../components/Info/Info"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+    <Info/>
+    <h2>
+   Home
+    </h2>
+    
+  </>
   )
 }
 

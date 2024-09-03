@@ -12,7 +12,12 @@
   color: var(--primary);
   padding: 10px;
 }
-
+.Text {
+  font-weight: 600;
+}
+.Text p + p {
+  font-weight: 300;
+}
 .Details img {
  width: 30px;
  height: 30px;

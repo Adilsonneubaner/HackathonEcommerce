@@ -4,12 +4,13 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 // pages
 import Home from './pages/Home'
 import Medicines from './pages/Medicines/Medicines'
-import Beauty from './pages/Beauty'
-import Hygiene from './pages/Hygiene'
-import Nutrition from './pages/Nutrition'
+import Beauty from './pages/Beauty/Beauty'
+import Hygiene from './pages/Hygiene/Hygiene'
+import Nutrition from './pages/Nutrition/Nutrition'
 
 // components
 import Navbar from './components/NavBar/Navbar'
+
 
 function App() {
 
