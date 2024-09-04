@@ -1,0 +1,16 @@
+.Button{
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Icon{
+  width: 25px;
+  height: 25px;
+  padding: 2px;
+}

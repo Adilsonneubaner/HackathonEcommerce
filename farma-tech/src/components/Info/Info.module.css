@@ -1,0 +1,50 @@
+.Info{
+  display: flex;
+ justify-content: center;
+   flex-wrap: wrap;
+   background: var(--gray-light);
+ }
+ .Details{
+  width: 50%;
+  align-items: center;
+
+  color: var(--primary);
+  padding: 30px;
+ }
+ .Text {
+  font-weight: 600;
+}
+.Text p + p {
+  font-weight: 300;
+}
+.Details img {
+ width: 30px;
+ height: 30px;
+}
+ 
+@media  screen and (min-width:769px) {
+  .Info{
+   flex-wrap: nowrap;
+   
+   }
+   .Details{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size:.6rem;
+     color: var(--primary);
+     padding: 10px;
+  
+     width: 100%;
+   }
+   .Text {
+    font-weight: 600;
+  }
+  .Text p + p {
+    font-weight: 300;
+  }
+  .Details img {
+   width: 30px;
+   height: 30px;
+  }
+}

@@ -1,0 +1,122 @@
+.Card{
+  border: 2px solid var(--primary);
+  max-width: 300px;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color:var(--primary);
+  font-weight: 500;
+  position: relative;
+  margin-top: 50px;
+
+}
+.Descont{
+  position: absolute;
+  background: var(--secundary);
+  color: var(--white);
+  border-radius: 5px;
+  font-size: 10px;
+  left: 5px;
+  top: 5px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.Capa{
+  width:90%;
+  margin: auto;
+}
+.Capa img{
+  width: 100%;
+}
+
+.Qtd{
+  width: 20px;
+  text-align: center;
+  color: var(--primary);
+}
+.Controls {
+  padding: 20px;
+   font-size: 16px;
+   
+}
+.Desc{
+  text-decoration: line-through;
+  font-style: italic;
+  color: grey;
+  font-weight: 300;
+}
+.Buttons{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+}
+.Buttons span{
+  cursor: pointer;
+}
+
+@media  screen and (min-width:769px) {
+  .Card{
+    border: 2px solid var(--primary);
+    max-width: 200px;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:var(--primary);
+    font-weight: 500;
+    position: relative;
+  }
+  .Descont{
+    position: absolute;
+    background: var(--secundary);
+    color: var(--white);
+    border-radius: 5px;
+    font-size: 10px;
+    left: 5px;
+    top: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  .Capa{
+    width:90%;
+    margin: auto;
+  }
+  .Capa img{
+    width: 100%;
+  }
+  
+  .Qtd{
+    width: 20px;
+    text-align: center;
+    color: var(--primary);
+  }
+  .Controls {
+    padding: 20px;
+     font-size: 16px;
+     
+  }
+  .Desc{
+    text-decoration: line-through;
+    font-style: italic;
+    color: grey;
+    font-weight: 300;
+  }
+  .Buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+  }
+  .Buttons span{
+    cursor: pointer;
+  }
+  
+}
