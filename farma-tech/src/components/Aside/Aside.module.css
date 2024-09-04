@@ -1,0 +1,6 @@
+.Aside{
+  position: absolute;
+  background: var(--gray-light);
+  margin-top: 50px;
+  color: var(--primary);
+}

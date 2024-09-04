@@ -1,3 +1,4 @@
+import Aside from "../../components/Aside/Aside";
 import Card from "../../components/Card/Card";
 import Info from "../../components/Info/Info";
 
@@ -7,9 +8,8 @@ const Medicines = () => {
   return (
     <>
       <Info/>
-      <h2>
-      Medicines
-      </h2>
+     
+      <Aside/>
       <div className={styles.Medicines}>
        
         <Card />
