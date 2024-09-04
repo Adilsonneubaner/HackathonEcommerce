@@ -3,13 +3,14 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 // pages
 import Home from './pages/Home'
-import Medicines from './pages/Medicines'
-import Beauty from './pages/Beauty'
-import Hygiene from './pages/Hygiene'
-import Nutrition from './pages/Nutrition'
+import Medicines from './pages/Medicines/Medicines'
+import Beauty from './pages/Beauty/Beauty'
+import Hygiene from './pages/Hygiene/Hygiene'
+import Nutrition from './pages/Nutrition/Nutrition'
 
 // components
-import Navbar from './components/Navbar'
+import Navbar from './components/NavBar/Navbar'
+
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path = '/' element = {<Home/>}/>
+        
         <Route path='/medicamentos' element = {<Medicines/>}/>
         <Route path='/beleza' element = {<Beauty/>}/>
         <Route path='/higiene' element = {<Hygiene/>}/>

@@ -1,15 +1,16 @@
-import React from 'react'
+import Info from "../components/Info/Info"
 
 // componentes
 import Footer from '../components/Footer'
 const Home = () => {
   return (
     <>
-      <main>
-
-      </main>
-      <Footer></Footer>
-    </>
+    <Info/>
+    <h2>
+   Home
+    </h2>
+    
+  </>
   )
 }
 

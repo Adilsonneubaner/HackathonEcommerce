@@ -1,0 +1,52 @@
+.Medicines{
+  display: flex;
+  width: 100%;
+ flex-direction: column;
+overflow: hidden;
+ 
+  align-items: center;
+  position: relative;
+}
+.Order{
+  position: absolute;
+ 
+}
+.Plus{
+  width: 100%;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  
+}
+
+
+@media  screen and (min-width:769px) {
+  .Medicines{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding-left: 180px;
+    position: relative;
+  }
+  .Order{
+    position: absolute;
+    right: 120px;
+    top: 50px;
+  }
+  .Plus{
+    width: 100%;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding-right: 180px;
+    
+  }
+  
+}
