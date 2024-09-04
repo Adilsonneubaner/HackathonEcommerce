@@ -5,12 +5,12 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
     <>
-    <Info/>
-    <h2>
-   Home
-    </h2>
-    
-  </>
+      <main>
+        <Info/>
+        <h1>Home</h1>
+      </main>
+      <Footer></Footer>
+    </>
   )
 }
 
