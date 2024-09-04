@@ -1,6 +1,27 @@
 .Aside{
-  position: absolute;
-  background: var(--gray-light);
-  margin-top: 50px;
-  color: var(--primary);
+  display: none;
+}
+@media  screen and (min-width:769px) {
+  .Aside{
+    position: absolute;
+    display: block;
+    background: var(--gray-light);
+    margin-top: 50px;
+    color: var(--primary);
+    left: 10px;
+    padding: 10px;
+  }
+  .Category{
+    padding: 10px;
+  }
+  .Category ul{
+    list-style: none;
+  }
+  
+  .Category a{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: .7rem;
+  }
+  
 }

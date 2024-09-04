@@ -1,5 +1,6 @@
 import styles from './Card.module.css';
 import capa from '../../assets/img/image-14.png'
+import icon from '../../assets/img/icon-cart.png'
 import Button from '../Button/Button';
 const Card = () => {
   return (
@@ -17,7 +18,7 @@ const Card = () => {
           className={styles.Qtd} 
          type="text" name="qtd" id="qtd" value='1' />
          <span>+</span>
-          <Button/>
+          <Button icon={icon}>Comprar</Button>
        </div>
        </div>
        

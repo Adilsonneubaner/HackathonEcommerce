@@ -1,10 +1,12 @@
 import styles from './Button.module.css'
-import icon from '../../assets/img/icon-cart.png'
-const Button = () => {
+
+
+// eslint-disable-next-line react/prop-types
+const Button = ({children,icon}) => {
   return (
     <button className={styles.Button}>
       <img src={icon} alt="" className={styles.Icon}/>
-      comprar
+     {children}
     </button>
   );
 }

@@ -17,7 +17,7 @@ const Info = () => {
       <div className={styles.Details}>
         <img src={icon2} alt="" />
         <div className={styles.Text}>
-          <p>Conpre e retire na loja</p>
+          <p>Compre e retire na loja</p>
           <p>em todas as nossa loja</p>
         </div>
       </div>
