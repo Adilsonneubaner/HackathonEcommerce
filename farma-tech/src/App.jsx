@@ -2,7 +2,7 @@ import './App.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 // pages
-import Home from './pages/Home'
+import Home from './pages/Home/Home'
 import Medicines from './pages/Medicines/Medicines'
 import Beauty from './pages/Beauty/Beauty'
 import Hygiene from './pages/Hygiene/Hygiene'

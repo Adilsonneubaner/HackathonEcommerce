@@ -1,21 +1,31 @@
 import styles from './Navbar.module.css'
 
+import OffCanvas from '../OffCanvas/OffCanvas'
+
 import {NavLink} from 'react-router-dom'
+import { useState } from 'react'
 
 const Navbar = () => {
+  const [offCanvas, setOffCanvas] = useState(false)
   return (
     <header>
         <nav className={styles.navbar}>
             <div className={styles.containerTitle}>
-                <h1 className={styles.title}>PharmaTech</h1>
-                <form>
-                  <div className={styles.search}>
-                    <label>
-                      <i className="bi bi-search"></i>
-                      <input type="text" placeholder='O que você precisa?' className={styles.inputSearch}/>
-                    </label>
-                  </div>
-                </form>
+                <div className={styles.containerTitleForm}>
+                  <h1 className={styles.title}>PharmaTech</h1>
+                  
+                  <form className={styles.formSearch}>
+                    <div className={styles.search}>
+                      <label>
+                        <i className="bi bi-search"></i>
+                        <input type="text" placeholder='O que você precisa?' className={styles.inputSearch}/>
+                      </label>
+                    </div>
+                  </form>
+                </div>
+                  
+                  <i class="bi bi-list" id={styles.menu} onClick={() => setOffCanvas(true)}></i>
+                  
                 <ul className={styles.userInteraction}>
                   <li className={styles.userInteractionOptions}>
                     <a href="/" className={styles.linksInteractionOptions}>
@@ -36,6 +46,7 @@ const Navbar = () => {
                     </a>
                   </li>
                 </ul>
+                
             </div>
 
             <div>
@@ -58,6 +69,7 @@ const Navbar = () => {
               </ul>
             </div>
         </nav>
+        <OffCanvas offCanvas = {offCanvas} setOffCanvas = {() => setOffCanvas(!offCanvas)}></OffCanvas>
     </header>
   )
 }

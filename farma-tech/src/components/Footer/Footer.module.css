@@ -103,3 +103,21 @@
     grid-column: span 2;
     text-align: center;
 }
+@media(width <= 850px){
+    .containerNewsletter{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footerPart2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .containerService{
+        max-width: 500px;
+    }
+    .containerPayment{
+        margin: 0;
+    }
+}

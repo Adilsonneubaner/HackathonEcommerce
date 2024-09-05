@@ -1,17 +1,16 @@
 .Info{
   display: flex;
- justify-content: center;
-   flex-wrap: wrap;
-   background: var(--gray-light);
+  justify-content: center;
+  flex-wrap: wrap;
+  background: var(--gray-light);
  }
- .Details{
+.Details{
   width: 50%;
   align-items: center;
-
   color: var(--primary);
   padding: 30px;
- }
- .Text {
+}
+.Text {
   font-weight: 600;
 }
 .Text p + p {
@@ -20,6 +19,9 @@
 .Details img {
  width: 30px;
  height: 30px;
+}
+.icons{
+  margin-right: 10px;
 }
  
 @media  screen and (min-width:769px) {

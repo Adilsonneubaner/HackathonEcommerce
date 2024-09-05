@@ -1,7 +1,7 @@
-import Info from "../components/Info/Info"
+import Info from "../../components/Info/Info"
 
 // componentes
-import Footer from '../components/Footer'
+import Footer from '../../components/Footer/Footer'
 const Home = () => {
   return (
     <>

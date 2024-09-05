@@ -8,35 +8,35 @@ const Info = () => {
   return (
     <div className={styles.Info}>
       <div className={styles.Details}>
-        <img src={icon1} alt="" />
+        <img src={icon1} alt="" className={styles.icons}/>
         <div className={styles.Text}>
           <p>Frete Gratis</p>
           <p>Acima de R$130,00</p>
         </div>
       </div>
       <div className={styles.Details}>
-        <img src={icon2} alt="" />
+        <img src={icon2} alt="" className={styles.icons}/>
         <div className={styles.Text}>
           <p>Compre e retire na loja</p>
           <p>em todas as nossa loja</p>
         </div>
       </div>
       <div className={styles.Details}>
-        <img src={icon3} alt="" />
+        <img src={icon3} alt="" className={styles.icons}/>
         <div className={styles.Text}>
           <p>Compre em até 4x sem juros</p>
           <p>No cartão de credito</p>
         </div>
       </div >
       <div className={styles.Details}>
-        <img src={icon4} alt="" />
+        <img src={icon4} alt="" className={styles.icons}/>
         <div className={styles.Text}>
           <p>Entrega expressa</p>
           <p>Veja área de atuação</p>
         </div>
       </div>
       <div className={styles.Details}>
-        <img src={icon5} alt="" />
+        <img src={icon5} alt="" className={styles.icons}/>
         <div className={styles.Text}>
           <p>Televenda</p>
           <p>(55)9999-9999</p>

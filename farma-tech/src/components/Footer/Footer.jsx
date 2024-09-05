@@ -2,11 +2,11 @@ import styles from './Footer.module.css'
 import { Link } from 'react-router-dom'
 
 // imagens
-import logo from '../images/logo.jpg'
-import masterCard from '../images/mastercard.svg'
-import visa from '../images/visa.svg'
-import elo from '../images/elo.svg'
-import pix from '../images/pix.svg'
+import logo from '../../images/logo.jpg'
+import masterCard from '../../images/mastercard.svg'
+import visa from '../../images/visa.svg'
+import elo from '../../images/elo.svg'
+import pix from '../../images/pix.svg'
 const Footer = () => {
   return (
    <footer>
