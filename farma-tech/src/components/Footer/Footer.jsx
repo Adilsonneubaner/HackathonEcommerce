@@ -7,6 +7,8 @@ import masterCard from '../../images/mastercard.svg'
 import visa from '../../images/visa.svg'
 import elo from '../../images/elo.svg'
 import pix from '../../images/pix.svg'
+import whats from '../../images/whats.png'
+import Button from '../Button/Button'
 const Footer = () => {
   return (
    <footer>
@@ -30,6 +32,9 @@ const Footer = () => {
             <div className={styles.containerService}>
                 <p className={styles.titleService}>Nosso Atendimento</p>
                 <p>Nosso atendimento ao cliente está sempre pronto para esclarecer suas dúvidas e resolver qualquer problema. Sinta-se à vontade para nos contatar sempre que precisar.</p>
+                <Button icon={whats}>
+                <a href="https://wa.me/5541984536057?text=Olá%2C%20gostaria%20de%20mais%20informações." target="_blank"> Atendimento pelo Whatsapp</a>
+                </Button>
             </div>
             
             <div>

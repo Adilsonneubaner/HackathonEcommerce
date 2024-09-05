@@ -8,7 +8,10 @@
   align-items: center;
   cursor: pointer;
 }
-
+.Button a{
+  color:var(--white);
+  text-decoration: none;
+}
 .Icon{
   width: 25px;
   height: 25px;

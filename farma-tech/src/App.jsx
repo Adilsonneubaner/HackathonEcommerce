@@ -10,6 +10,7 @@ import Nutrition from './pages/Nutrition/Nutrition'
 
 // components
 import Navbar from './components/NavBar/Navbar'
+import Details from './pages/Details/Details'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/beleza' element = {<Beauty/>}/>
         <Route path='/higiene' element = {<Hygiene/>}/>
         <Route path='/nutricao' element = {<Nutrition/>}/>
+        <Route path='/detalhes' element = {<Details/>}/>
       </Routes>
     </BrowserRouter>
    </> 

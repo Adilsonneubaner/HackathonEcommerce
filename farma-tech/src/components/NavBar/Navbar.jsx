@@ -12,7 +12,7 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             <div className={styles.containerTitle}>
                 <div className={styles.containerTitleForm}>
-                  <h1 className={styles.title}>PharmaTech</h1>
+                  <h1 className={styles.title}>FharmaTech</h1>
                   
                   <form className={styles.formSearch}>
                     <div className={styles.search}>

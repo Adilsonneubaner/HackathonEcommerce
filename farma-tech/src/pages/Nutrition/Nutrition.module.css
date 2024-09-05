@@ -1,20 +1,11 @@
-.Medicines{
+.Nutrition{
   display: flex;
-  width:100%;
+  width: 100%;
  flex-direction: column;
 overflow: hidden;
 
   align-items: center;
   position: relative;
-}
-.Container{
-  display: flex;
-  width: 80%;
-  height: 500px;
-background:var(-gray-light);
-  justify-content: space-around;
-  overflow-y: scroll;
-  flex-wrap: wrap;
 }
 .Order{
   position: absolute;
@@ -32,7 +23,7 @@ background:var(-gray-light);
 
 
 @media  screen and (min-width:769px) {
-  .Medicines{
+  .Nutrition{
     display: flex;
     flex-direction: row;
     width: 100%;

@@ -103,6 +103,7 @@
     grid-column: span 2;
     text-align: center;
 }
+
 @media(width <= 850px){
     .containerNewsletter{
         flex-direction: column;

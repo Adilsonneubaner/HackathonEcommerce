@@ -1,0 +1,147 @@
+{
+  "medicines": [
+    {
+      "id": 1,
+      "name": "Paracetamol",
+      "description": "Analgésico e antipirético usado para tratar dores leves a moderadas e febre.",
+      "price": 12.50,
+      "image": "https://example.com/images/paracetamol.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ibuprofeno",
+      "description": "Anti-inflamatório não esteroide usado para alívio da dor, inflamação e febre.",
+      "price": 18.30,
+      "image": "https://example.com/images/ibuprofeno.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dipirona",
+      "description": "Analgésico e antipirético usado para tratar dores intensas e febre alta.",
+      "price": 10.00,
+      "image": "https://www.ecured.cu/images/thumb/7/7a/Dipirona_Tab..jpg/300px-Dipirona_Tab..jpg"
+    },
+    {
+      "id": 4,
+      "name": "Amoxicilina",
+      "description": "Antibiótico usado para tratar infecções bacterianas.",
+      "price": 25.00,
+      "image": "https://example.com/images/amoxicilina.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Loratadina",
+      "description": "Antialérgico usado para tratar sintomas de alergia, como coceira, coriza e espirros.",
+      "price": 15.00,
+      "image": "https://example.com/images/loratadina.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Omeprazol",
+      "description": "Medicamento usado para reduzir a produção de ácido no estômago.",
+      "price": 20.00,
+      "image": "https://example.com/images/omeprazol.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Losartana",
+      "description": "Medicamento utilizado para tratar hipertensão e insuficiência cardíaca.",
+      "price": 22.00,
+      "image": "https://example.com/images/losartana.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Ranitidina",
+      "description": "Medicamento usado para tratar úlceras no estômago e refluxo gastroesofágico.",
+      "price": 19.90,
+      "image": "https://example.com/images/ranitidina.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Simeticona",
+      "description": "Medicamento usado para aliviar sintomas de gases intestinais.",
+      "price": 8.50,
+      "image": "https://example.com/images/simeticona.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Vitamina C",
+      "description": "Suplemento usado para reforçar o sistema imunológico e prevenir deficiências de vitamina C.",
+      "price": 12.00,
+      "image": "https://example.com/images/vitamina-c.jpg"
+    }
+  ],
+  "beauty" :[
+    {
+      "id": 1,
+      "name": "Protetor Solar La Roche-Posay Anthelios",
+      "description": "Protetor solar  com efeito antioleosidade e toque seco.",
+      "price": 79.90,
+      "imageUrl": "https://www.laroche-posay.com.br/sites/default/files/styles/cover_images_full_800x400_/public/dam/Anthelios%20XL%20Protetor%20Solar%20FPS%2070%20La%20Roche-Posay.png"
+    },
+    {
+      "id": 2,
+      "name": "Shampoo Pantene Brilho Extremo",
+      "description": "Shampoo que limpa profundamente o cabelo.",
+      "price": 14.99,
+      "imageUrl": "https://cdn.awsli.com.br/600x450/231/231418/produto/11941648/936b6511ef.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Hidratante Facial Nivea Soft",
+      "description": "Hidratação intensa sem sensação oleosa.",
+      "price": 25.90,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71lGsU82zDL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Máscara Capilar Novex Super Babosão",
+      "description": "Máscara de hidratação  ideal para cabelos secos e quebradiços.",
+      "price": 19.99,
+      "imageUrl": "https://cdn.awsli.com.br/600x450/1287/1287191/produto/130681876/2b1300802f.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Água Micelar L'Oréal Paris 5 em 1",
+      "description": "Água micelar que limpa, demaquila, purifica, suaviza e reequilibra a pele. ",
+      "price": 29.90,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71DNwdycRML._AC_SL1500_.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Condicionador TRESemmé Reconstrução e Força",
+      "description": "Condicionador para cabelos danificados.",
+      "price": 16.99,
+      "imageUrl": "https://images-americanas.b2w.io/produtos/01/00/img/183347/4/183347439_1SZ.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Bepantol Derma Solução",
+      "description": "Solução hidratante multifuncional para pele e cabelo.",
+      "price": 34.90,
+      "imageUrl": "https://farmaciaessentia.com.br/wp-content/uploads/2020/10/bepantol-derma-solucao-frasco-50ml.png"
+    },
+    {
+      "id": 8,
+      "name": "Sabonete Facial Effaclar Concentrado La Roche-Posay",
+      "description": "Sabonete de limpeza profunda para pele oleosa",
+      "price": 49.90,
+      "imageUrl": "https://www.laroche-posay.com.br/sites/default/files/styles/cover_images_full_800x400_/public/dam/La-Roche-Posay-Effaclar-Concentrado-Gel-100ml.png"
+    },
+    {
+      "id": 9,
+      "name": "Esfoliante Corporal Dove",
+      "description": "Esfoliante corporal que remove células mortas e hidrata a pele, deixando-a suave e macia.",
+      "price": 24.90,
+      "imageUrl": "https://dove.com.br/images/default-source/default-album/br_product_desktop/tom-desenvolvimento-3449495-2138772-pdp-br-esfoliante-corporal-345ml-6.png"
+    },
+    {
+      "id": 10,
+      "name": "Creme Anti-Idade Revitalift L'Oréal Paris",
+      "description": "Reduz rugas e linhas de expressão, promovendo firmeza à pele.",
+      "price": 79.90,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61HfiJYTG2L._AC_SL1500_.jpg"
+    }
+  ]
+  
+}
