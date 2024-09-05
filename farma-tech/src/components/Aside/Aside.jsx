@@ -1,9 +1,9 @@
 import styles from "./Aside.module.css";
 
-const Aside = () => {
+const Aside = ({title}) => {
   return (
     <aside className={styles.Aside}>
-      <h2>Medicamentos</h2>
+      <h2>{title}</h2>
       <p>
         <span>152</span> produtos encontrados
       </p>

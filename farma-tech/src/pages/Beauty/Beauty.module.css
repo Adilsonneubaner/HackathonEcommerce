@@ -1,4 +1,4 @@
-.Medicines{
+.Beauty{
   display: flex;
   width:100%;
  flex-direction: column;
@@ -32,7 +32,7 @@ background:var(-gray-light);
 
 
 @media  screen and (min-width:769px) {
-  .Medicines{
+  .Beauty{
     display: flex;
     flex-direction: row;
     width: 100%;
