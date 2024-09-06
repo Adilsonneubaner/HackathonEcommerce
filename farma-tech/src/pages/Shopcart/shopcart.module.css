@@ -1,0 +1,220 @@
+.titlePage {
+  font-size: 32px;
+  font-weight: 700;
+
+  color: #0D4F81;
+
+  padding: 62px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-left: 62px;
+}
+
+.shopcartContainer {
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px;
+
+  margin-top: 62px;
+}
+
+.shopcartContent {
+  display: flex;
+  flex-direction: row;
+
+  gap: 24px;
+}
+
+.shopcartInfo {
+  display: flex;
+  flex-direction: row;
+
+  gap: 24px;
+}
+
+.shopcartImage {
+  width: 172px;
+  height: 172px;
+
+  border-radius: 24px;
+}
+
+.shopcartDetails {
+  display: flex;
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+.shopcartName {
+  font-size: 26px;
+  font-weight: 400;
+
+  color: #0D4F81;
+}
+
+.shopcartPrice {
+  font-size: 26px;
+  font-weight: 700;
+
+  color: #0D4F81;
+}
+
+.quantityRemove {
+  display: flex;
+
+  margin-top: 34px;
+
+  gap: 24px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+}
+
+.buttonQuantity {
+  background-color: var(--white);
+
+  border: none;
+
+  color: #0D4F81;
+
+  font-size: 26px;
+
+  cursor: pointer;
+
+  transition: all 0.4s;
+}
+
+.buttonQuantity:hover {
+  color: var(--primary);
+}
+
+.quantityText {
+  font-size: 16px;
+  font-weight: 400;
+
+  color: #000;
+}
+
+.buttonRemove {
+  font-size: 18px;
+  font-weight: 500;
+
+  background-color: transparent;
+  color: #DA0B0E;
+
+  border: none;
+
+  cursor: pointer;
+
+  transition: all 0.4s;
+}
+
+.buttonRemove:hover {
+  color: #a70d0f;
+}
+
+.finishBuyContainer {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 62px;
+
+  margin-right: 100px;
+}
+
+.findBuyContent {
+  width: 524px;
+  height: 372px;
+
+  background-color: #F9F9F9;
+
+  border-radius: 24px;
+
+  padding: 42px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px;
+}
+
+.findBuyQuantity {
+  display: flex;
+  
+  gap: 207px; 
+}
+
+.findBuyQuantity span {
+  font-size: 24px;
+  font-weight: 500;
+
+  color: #0D4F81;
+}
+
+.findBuyShippingCost {
+  display: flex;
+
+  gap: 166px; 
+}
+
+.findBuyShippingCost span {
+  font-size: 24px;
+  font-weight: 500;
+
+  color: #0D4F81;
+}
+
+.findBuyTotal {
+  display: flex;
+
+  gap: 190px;
+}
+
+.findBuyTotal span {
+  font-size: 24px;
+  font-weight: 500;
+
+  color: #0D4F81;
+}
+
+.findBuyTotal strong {
+  font-size: 24px;
+
+  color: #0D4F81;
+}
+
+.findBuyButton {
+  width: 440px;
+  height: 74px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: var(--primary);
+  color: var(--white);
+
+  font-size: 32px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: all 0.4s;
+
+  margin-top: 42px;
+}
+
+.findBuyButton:hover {
+  background-color: #1e42d7;
+}
