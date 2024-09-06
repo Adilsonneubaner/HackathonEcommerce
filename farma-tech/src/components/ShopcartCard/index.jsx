@@ -1,7 +1,17 @@
 import styles from "./shopcartCard.module.css";
 import remedioImage from "../../assets/img/remedio.png";
+import { useState } from "react";
 
 export function ShopcartCard() {
+  const [quantity, setQuantity] = useState(1);
+
+  function handleIncreaseQuantity() {
+    setQuantity((prevQuantity) => prevQuantity + 1);
+  }
+
+  function handleDecreaseQuantity() {
+    setQuantity((prevQuantity) => prevQuantity - 1);
+  }
   return (
     <div className={styles.shopcartContent}>
       <div className={styles.shopcartInfo}>
@@ -17,9 +27,20 @@ export function ShopcartCard() {
           <span className={styles.shopcartPrice}>R$ 10,90</span>
           <div className={styles.quantityRemove}>
             <div className={styles.quantity}>
-              <button className={styles.buttonQuantity}>-</button>
-              <span className={styles.quantityText}>1</span>
-              <button className={styles.buttonQuantity}>+</button>
+              <button
+                onClick={handleDecreaseQuantity}
+                disabled={quantity === 1}
+                className={styles.buttonQuantity}
+              >
+                -
+              </button>
+              <span className={styles.quantityText}>{quantity}</span>
+              <button
+                onClick={handleIncreaseQuantity}
+                className={styles.buttonQuantity}
+              >
+                +
+              </button>
             </div>
             <button className={styles.buttonRemove}>Remover</button>
           </div>

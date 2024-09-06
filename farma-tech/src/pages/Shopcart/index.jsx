@@ -1,7 +1,7 @@
-import styles from './shopcart.module.css'
-import Info from '../../components/Info/Info'
-import Footer from '../../components/Footer/Footer'
-import { ShopcartCard } from '../../components/ShopcartCard'
+import styles from "./shopcart.module.css";
+import Info from "../../components/Info/Info";
+import Footer from "../../components/Footer/Footer";
+import { ShopcartCard } from "../../components/ShopcartCard";
 
 export function Shopcart() {
   return (
@@ -34,5 +34,5 @@ export function Shopcart() {
       </div>
       <Footer />
     </div>
-  )
+  );
 }
