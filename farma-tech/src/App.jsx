@@ -7,6 +7,7 @@ import Medicines from './pages/Medicines/Medicines'
 import Beauty from './pages/Beauty/Beauty'
 import Hygiene from './pages/Hygiene/Hygiene'
 import Nutrition from './pages/Nutrition/Nutrition'
+import SignIn from './pages/SignIn'
 
 // components
 import Navbar from './components/NavBar/Navbar'
@@ -27,6 +28,7 @@ function App() {
         <Route path='/higiene' element = {<Hygiene/>}/>
         <Route path='/nutricao' element = {<Nutrition/>}/>
         <Route path='/detalhes' element = {<Details/>}/>
+        <Route path='/signin' element={<SignIn />} />
       </Routes>
     </BrowserRouter>
    </> 

@@ -1,0 +1,161 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 72px;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin: 82px 162px;
+
+  width: 542px;
+  height: 542px;
+
+  border: 0;
+  border-radius: 24px;
+
+  background-color: #F8F8F9;
+}
+
+.loginText {
+  margin-top: 32px;
+
+  font-size: 36px;
+  font-weight: 700;
+
+  color: #0D4F81;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+
+  gap: 42px;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+
+  gap: 6px;
+}
+
+.formContent label {
+  font-size: 16px;
+  font-weight: 400;
+
+  color: #0D4F81;
+}
+
+.formContent input {
+  width: 450px;
+  height: 62px;
+
+  border: 1px solid #999999;
+  border-radius: 8px;
+
+  background-color: var(--white);
+  color: #0D4F81;
+
+  padding: 12px;
+  box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.25);
+
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.formContent input:focus {
+  outline: 1px solid var(--primary);
+}
+
+.formContent input::placeholder {
+  color: #999999;
+}
+
+.subtitleTexts {
+  display: flex;
+  gap: 177px;
+
+  margin: 16px 0;
+}
+
+.subtitleTexts a {
+  text-decoration: none;
+}
+
+.subtitleTexts span {
+  font-size: 14px;
+  font-weight: 400;
+
+  color: #0D4F81;
+
+  transition: all 0.4s;
+}
+
+.subtitleTexts span:hover {
+  color: var(--primary);
+}
+
+.buttonForm {
+  width: 450px;
+  height: 62px;
+
+  margin-top: 32px;
+
+  border: 0;
+  border-radius: 8px;
+
+  background-color: var(--primary);
+  color: #fff;
+
+  font-size: 28px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: all 0.4s;
+}
+
+.buttonForm:hover {
+  background-color: #1e42d7;
+}
+
+.registerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 82px 122px;
+
+  gap: 22px;
+
+  width: 542px;
+  height: 542px;
+
+  border: 0;
+  border-radius: 24px;
+
+  background-color: #F8F8F9;
+}
+
+.registerContainer strong {
+  margin-top: 32px;
+  
+  font-size: 36px;
+  font-weight: 700;
+  
+  color: #0D4F81;
+}
+
+.registerContainer p {
+  font-size: 22px;
+  font-weight: 400;
+
+  width: 419px;
+
+  color: #0D4F81;
+}
