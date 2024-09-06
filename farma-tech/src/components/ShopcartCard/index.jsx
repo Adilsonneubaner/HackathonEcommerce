@@ -1,17 +1,12 @@
+/* eslint-disable react/prop-types */
 import styles from "./shopcartCard.module.css";
 import remedioImage from "../../assets/img/remedio.png";
-import { useState } from "react";
 
-export function ShopcartCard() {
-  const [quantity, setQuantity] = useState(1);
-
-  function handleIncreaseQuantity() {
-    setQuantity((prevQuantity) => prevQuantity + 1);
-  }
-
-  function handleDecreaseQuantity() {
-    setQuantity((prevQuantity) => prevQuantity - 1);
-  }
+export function ShopcartCard({
+  quantity,
+  handleDecreaseQuantity,
+  handleIncreaseQuantity,
+}) {
   return (
     <div className={styles.shopcartContent}>
       <div className={styles.shopcartInfo}>
