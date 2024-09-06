@@ -1,8 +1,7 @@
 import styles from './shopcart.module.css'
 import Info from '../../components/Info/Info'
 import Footer from '../../components/Footer/Footer'
-import remedioImage from '../../assets/img/remedio.png' 
-
+import { ShopcartCard } from '../../components/ShopcartCard'
 
 export function Shopcart() {
   return (
@@ -11,57 +10,9 @@ export function Shopcart() {
       <strong className={styles.titlePage}>Sacola de compras</strong>
       <div className={styles.content}>
         <div className={styles.shopcartContainer}>
-          <div className={styles.shopcartContent}>
-            <div className={styles.shopcartInfo}>
-              <img className={styles.shopcartImage} src={remedioImage} alt='remedio' />
-              <div className={styles.shopcartDetails}>
-                <span className={styles.shopcartName}>Cartela com 4 comprimidos benegripe</span>
-                <span className={styles.shopcartPrice}>R$ 10,90</span>
-                <div className={styles.quantityRemove}>
-                  <div className={styles.quantity}>
-                    <button className={styles.buttonQuantity}>-</button>
-                    <span className={styles.quantityText}>1</span>
-                    <button className={styles.buttonQuantity}>+</button>
-                  </div>
-                  <button className={styles.buttonRemove}>Remover</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.shopcartContent}>
-            <div className={styles.shopcartInfo}>
-              <img className={styles.shopcartImage} src={remedioImage} alt='remedio' />
-              <div className={styles.shopcartDetails}>
-                <span className={styles.shopcartName}>Cartela com 4 comprimidos benegripe</span>
-                <span className={styles.shopcartPrice}>R$ 10,90</span>
-                <div className={styles.quantityRemove}>
-                  <div className={styles.quantity}>
-                    <button className={styles.buttonQuantity}>-</button>
-                    <span className={styles.quantityText}>1</span>
-                    <button className={styles.buttonQuantity}>+</button>
-                  </div>
-                  <button className={styles.buttonRemove}>Remover</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.shopcartContent}>
-            <div className={styles.shopcartInfo}>
-              <img className={styles.shopcartImage} src={remedioImage} alt='remedio' />
-              <div className={styles.shopcartDetails}>
-                <span className={styles.shopcartName}>Cartela com 4 comprimidos benegripe</span>
-                <span className={styles.shopcartPrice}>R$ 10,90</span>
-                <div className={styles.quantityRemove}>
-                  <div className={styles.quantity}>
-                    <button className={styles.buttonQuantity}>-</button>
-                    <span className={styles.quantityText}>1</span>
-                    <button className={styles.buttonQuantity}>+</button>
-                  </div>
-                  <button className={styles.buttonRemove}>Remover</button>
-                </div>
-              </div>
-            </div>
-          </div>
+          <ShopcartCard />
+          <ShopcartCard />
+          <ShopcartCard />
         </div>
         <div className={styles.finishBuyContainer}>
           <div className={styles.findBuyContent}>
